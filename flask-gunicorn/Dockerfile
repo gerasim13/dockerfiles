@@ -7,5 +7,5 @@ RUN pip3 install --upgrade -r /tmp/requirements.txt
 RUN apk del build-base python3-dev gmp-dev && \
     rm -rf /root/.cache/pip/* && \
     rm -rf /var/cache/apk/* && \
-    rm -rf /tmp/* &&
+    rm -rf /tmp/* && \
     rm -rf /root/.cache/
