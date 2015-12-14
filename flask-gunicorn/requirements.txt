@@ -1,2 +1,5 @@
-gunicorn
-tornado
+aiohttp==0.16.5
+gunicorn==19.3.0
+tornado==4.2.1
+sockjs-tornado==1.0.2
+tornado-redis==2.4.18
